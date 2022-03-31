@@ -2063,6 +2063,20 @@ const axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 //     axios.defaults.withCredentials = true;
 // }
 }();
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+!function() {
+/*!*****************************************!*\
+  !*** ./resources/markup/about/about.js ***!
+  \*****************************************/
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+!function() {
+/*!*****************************************!*\
+  !*** ./resources/markup/buses/buses.js ***!
+  \*****************************************/
+
+}();
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
@@ -2426,10 +2440,31 @@ function createSelect(options) {
 }();
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 !function() {
+/*!*************************************!*\
+  !*** ./resources/markup/faq/faq.js ***!
+  \*************************************/
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+!function() {
+/*!***************************************!*\
+  !*** ./resources/markup/form/form.js ***!
+  \***************************************/
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+!function() {
 /*!*******************************************!*\
   !*** ./resources/markup/header/header.js ***!
   \*******************************************/
 console.log(123);
+}();
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+!function() {
+/*!*******************************************!*\
+  !*** ./resources/markup/hotels/hotels.js ***!
+  \*******************************************/
+
 }();
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 !function() {
@@ -2486,6 +2521,17 @@ function checkEmptyInput($wrapper) {
 !function() {
 "use strict";
 var __webpack_exports__ = {};
+/*!*******************************************!*\
+  !*** ./resources/markup/about/about.scss ***!
+  \*******************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+var __webpack_exports__ = {};
 /*!*****************************************!*\
   !*** ./resources/markup/base/main.scss ***!
   \*****************************************/
@@ -2530,6 +2576,17 @@ __webpack_require__.r(__webpack_exports__);
 !function() {
 "use strict";
 var __webpack_exports__ = {};
+/*!*******************************************!*\
+  !*** ./resources/markup/buses/buses.scss ***!
+  \*******************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+var __webpack_exports__ = {};
 /*!*********************************************!*\
   !*** ./resources/markup/button/button.scss ***!
   \*********************************************/
@@ -2552,8 +2609,41 @@ __webpack_require__.r(__webpack_exports__);
 !function() {
 "use strict";
 var __webpack_exports__ = {};
+/*!***************************************!*\
+  !*** ./resources/markup/faq/faq.scss ***!
+  \***************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+var __webpack_exports__ = {};
+/*!*****************************************!*\
+  !*** ./resources/markup/form/form.scss ***!
+  \*****************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+var __webpack_exports__ = {};
 /*!*********************************************!*\
   !*** ./resources/markup/header/header.scss ***!
+  \*********************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+var __webpack_exports__ = {};
+/*!*********************************************!*\
+  !*** ./resources/markup/hotels/hotels.scss ***!
   \*********************************************/
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin

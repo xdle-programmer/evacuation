@@ -8,6 +8,10 @@
     width: 1000px;
     @include margin-auto;
 
+    &--small {
+        width: 680px;
+    }
+
     @include tablet-big-screen {
         width: calc(100% - 20px);
     }

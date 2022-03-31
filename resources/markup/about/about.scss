@@ -1,0 +1,17 @@
+@import "~frontend-scss-mixins/mixins";
+@import "../base/mixins";
+@import "../base/variables";
+@import "../base/media-queries";
+
+.about {
+
+    &__block {
+        padding: 20px 0;
+    }
+
+    &__text {
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+}

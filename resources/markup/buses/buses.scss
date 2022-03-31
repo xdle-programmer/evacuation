@@ -1,0 +1,79 @@
+@import "~frontend-scss-mixins/mixins";
+@import "../base/mixins";
+@import "../base/variables";
+@import "../base/media-queries";
+
+.buses {
+    padding: 30px 0;
+
+    &__title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__block {
+
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    &__item {
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    &__item-date {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    &__item-count {
+        margin-bottom: 10px;
+    }
+
+    &__departures {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    &__departure {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 7px;
+            height: 7px;
+            background: #000;
+            border-radius: 50%;
+            margin-right: 5px;
+
+        }
+    }
+
+    &__item-hotels {
+    }
+
+    &__item-hotel {
+    }
+
+    &__item-hotel-name {
+        font-weight: 700;
+    }
+
+    &__item-hotel-location {
+        font-size: 12px;
+    }
+
+}

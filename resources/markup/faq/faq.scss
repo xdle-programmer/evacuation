@@ -1,0 +1,55 @@
+@import "~frontend-scss-mixins/mixins";
+@import "../base/mixins";
+@import "../base/variables";
+@import "../base/media-queries";
+
+.faq {
+    padding: 30px 0;
+
+    &__title {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__block {
+
+    }
+
+    &__items {
+    }
+
+    &__item {
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #000;
+    }
+
+    &__item-title {
+        font-size: 24px;
+        @include flex-row;
+        align-items: baseline;
+    }
+
+    &__item-title-name {
+        font-size: 24px;
+    }
+
+    &__item-title-link {
+        width: 20px;
+        height: 20px;
+        background: url(../../../public/images/icons/link.svg);
+        @include background-contain-center;
+        margin-left: 45px;
+    }
+
+    &__item-title-copy {
+        width: 20px;
+        height: 20px;
+        background: #000;
+        font-size: 18px;
+        background: url(../../../public/images/icons/copy.svg);
+        @include background-contain-center;
+        margin-left: 15px;
+    }
+}
