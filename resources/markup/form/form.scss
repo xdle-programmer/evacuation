@@ -4,7 +4,7 @@
 @import "../base/media-queries";
 
 .form {
-    padding: 30px 0;
+    padding: 60px 0;
 
     &__title {
         font-size: 30px;
@@ -16,14 +16,26 @@
 
     }
 
-    &__text {
-        text-align: center;
-    }
+    &__button {
+        background: #185678;
+        @include flex-row-center;
+        text-decoration: underline;
+        font-size: 30px;
+        padding: 10px 50px;
+        @include margin-auto;
+        width: fit-content;
+        color: #fff;
+        border-radius: 5px;
 
-    &__item {
-        & iframe {
+
+        @include tablet-big-screen {
+            font-size: 22px;
+            padding: 10px;
             width: 100%;
         }
 
+        &:hover {
+            background: #0d3950;
+        }
     }
 }

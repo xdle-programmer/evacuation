@@ -2447,6 +2447,13 @@ function createSelect(options) {
 }();
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 !function() {
+/*!*******************************************!*\
+  !*** ./resources/markup/footer/footer.js ***!
+  \*******************************************/
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+!function() {
 /*!***************************************!*\
   !*** ./resources/markup/form/form.js ***!
   \***************************************/
@@ -2516,6 +2523,13 @@ function checkEmptyInput($wrapper) {
   $input.addEventListener('change', checkVal);
   checkVal();
 }
+}();
+// This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
+!function() {
+/*!*****************************************!*\
+  !*** ./resources/markup/price/price.js ***!
+  \*****************************************/
+
 }();
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
@@ -2620,6 +2634,17 @@ __webpack_require__.r(__webpack_exports__);
 !function() {
 "use strict";
 var __webpack_exports__ = {};
+/*!*********************************************!*\
+  !*** ./resources/markup/footer/footer.scss ***!
+  \*********************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+var __webpack_exports__ = {};
 /*!*****************************************!*\
   !*** ./resources/markup/form/form.scss ***!
   \*****************************************/
@@ -2685,9 +2710,20 @@ __webpack_require__.r(__webpack_exports__);
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
+var __webpack_exports__ = {};
 /*!*******************************************************!*\
   !*** ./resources/markup/placeholder/placeholder.scss ***!
   \*******************************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+/*!*******************************************!*\
+  !*** ./resources/markup/price/price.scss ***!
+  \*******************************************/
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 

@@ -9,6 +9,11 @@
     @include background-cover-center;
     padding: 200px 0;
 
+    @include tablet-big-screen {
+        padding-top: 90px;
+        padding-bottom: 140px;
+    }
+
     &__block {
         @include flex-column-center;
         text-align: center;
@@ -17,6 +22,11 @@
         background: rgba(0, 0, 0, .1);
         backdrop-filter: blur(4px);
         border-radius: 50px;
+
+        @include tablet-big-screen {
+            padding: 18px;
+            border-radius: 0;
+        }
     }
 
     &__title {

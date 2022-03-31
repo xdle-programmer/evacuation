@@ -20,6 +20,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
+
+        @include tablet-big-screen {
+            grid-gap: 10px;
+        }
     }
 
     &__item {
@@ -27,6 +31,10 @@
         border-radius: 5px;
         padding: 10px;
         text-align: center;
+
+        @include tablet-big-screen {
+            padding: 5px;
+        }
     }
 
     &__item-date {
@@ -43,6 +51,10 @@
         flex-wrap: wrap;
         margin-bottom: 10px;
         justify-content: center;
+
+        @include tablet-big-screen {
+            font-size: 12px;
+        }
     }
 
     &__departure {
@@ -59,6 +71,9 @@
             border-radius: 50%;
             margin-right: 5px;
 
+            @include tablet-big-screen {
+                display: none;
+            }
         }
     }
 

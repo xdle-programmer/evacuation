@@ -22,17 +22,24 @@
     &__item {
         margin-bottom: 15px;
         padding-bottom: 5px;
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #b4daef;
     }
 
     &__item-title {
         font-size: 24px;
-        @include flex-row;
-        align-items: baseline;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 20px 20px;
+        grid-gap: 5px;
     }
 
     &__item-title-name {
         font-size: 24px;
+        font-weight: 700;
+
+        @include tablet-big-screen {
+            font-size: 20px;
+        }
     }
 
     &__item-title-link {
@@ -40,7 +47,8 @@
         height: 20px;
         background: url(../../../public/images/icons/link.svg);
         @include background-contain-center;
-        margin-left: 45px;
+        cursor: pointer;
+        opacity: .3;
     }
 
     &__item-title-copy {
@@ -50,6 +58,11 @@
         font-size: 18px;
         background: url(../../../public/images/icons/copy.svg);
         @include background-contain-center;
-        margin-left: 15px;
+        cursor: pointer;
+        opacity: .3;
+    }
+
+    &__item-answer {
+        font-size: 18px;
     }
 }

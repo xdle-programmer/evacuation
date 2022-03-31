@@ -10,12 +10,28 @@
 </head>
 <body>
 
-<header class="header">
-
-</header>
+<div class="header">
+    <div class="header__block layout">
+        <a href="/" class="header__name">Евакуація до Болгарії</a>
+        <div class="header__contacts-block">
+            <a href="tel:+380972141648" class="header__contact">+380972141648</a>
+            <a target="_blank" href="https://forms.gle/H8rSUwsF7injQaQH6" class="header__register">Зареєструватись</a>
+        </div>
+    </div>
+</div>
 
 @yield('content')
 
+
+<div class="footer">
+    <div class="footer__block layout">
+        <a href="/" class="footer__name">Евакуація до Болгарії</a>
+        <div class="footer__contacts-block">
+            <a href="tel:+380972141648" class="footer__contact">+380972141648</a>
+            <a target="_blank" href="https://forms.gle/H8rSUwsF7injQaQH6" class="footer__register">Зареєструватись</a>
+        </div>
+    </div>
+</div>
 
 <script src="/main.js"></script>
 

@@ -2,7 +2,6 @@
 
 @section('content')
 
-
     <div class="main-screen">
         <div class="main-screen__block layout layout--small">
             <div class="main-screen__title">Эвакуация в Болгарию</div>
@@ -30,6 +29,15 @@
         </div>
     </div>
 
+    <div class="price">
+        <div class="price__block layout">
+            <div class="price__title">Стоимость:</div>
+            <div class="price__item">
+            Проживание и трех-разовое питание: <strong>бесплатно</strong>. Транспорт, супровід до готелю, зустріч в Болгарії, допомога з
+            поселенням та допомога під час перебування в Болгарії: <strong>70 евро + 950 гривен предоплата</strong>.
+            </div>
+        </div>
+    </div>
 
     <div class="buses">
         <div class="buses__block layout">
@@ -135,12 +143,7 @@
 
     <div class="form">
         <div class="form__block layout">
-            <div class="form__item">
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSdQxBkC39tnl42SwBPDwrE7Acpmruen_NFXBuR22DUrJXzp5w/viewform?embedded=true"
-                    width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">Загрузка…
-                </iframe>
-            </div>
+            <a target="_blank" href="https://forms.gle/H8rSUwsF7injQaQH6" class="form__button">Зареєструватись</a>
         </div>
     </div>
 
