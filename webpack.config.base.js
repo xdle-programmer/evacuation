@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 let excludeDirName = '__exclude__';
 let getFiles = function (dir, files_, extension) {
@@ -41,8 +42,8 @@ module.exports = {
         main: fullArray,
     },
     output: {
-        filename: '[name].js',
-        path: path.resolve(__dirname, './public'),
+        filename: '[name].[hash].js',
+        path: path.resolve(__dirname, './public/markup'),
     },
     devtool: 'source-map',
     module: {
@@ -52,13 +53,13 @@ module.exports = {
                 loader: 'babel-loader',
                 exclude: '/node_modules/'
             },
-            {
-                test: /\.css$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                ],
-            },
+            // {
+            //     test: /\.css$/,
+            //     use: [
+            //         MiniCssExtractPlugin.loader,
+            //         'css-loader',
+            //     ],
+            // },
             {
                 test: /\.scss$/,
                 use: [

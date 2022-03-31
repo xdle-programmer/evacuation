@@ -5,7 +5,7 @@
 
 .main-screen {
     width: 100%;
-    background: url(../../../public/images/main/varna.jpg);
+    background: url(../../../public/images/main/zolotyie-peski.jpg);
     @include background-cover-center;
     padding: 200px 0;
 
@@ -26,6 +26,8 @@
         @include tablet-big-screen {
             padding: 18px;
             border-radius: 0;
+            backdrop-filter: none;
+            background: rgba(0, 91, 189, .7);
         }
     }
 
@@ -35,6 +37,7 @@
     }
 
     &__text {
+        font-size: 18px;
 
         a {
             color: #fff;
@@ -45,4 +48,9 @@
 
     }
 
+    &__phone {
+        font-size: 35px;
+        margin-top: 10px;
+        color: #fff;
+    }
 }

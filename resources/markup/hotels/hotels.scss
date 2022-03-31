@@ -18,11 +18,12 @@
 
     &__items {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
 
         @include tablet-big-screen {
             grid-gap: 10px;
+            grid-template-columns: 1fr 1fr;
         }
     }
 
@@ -36,8 +37,15 @@
     }
 
     &__item-name {
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 23px;
+        margin-bottom: 5px;
+        color: #185678;
+        font-weight: 500;
+        text-decoration: underline;
+
+        @include tablet-big-screen {
+            font-size: 16px;
+        }
     }
 
     &__item-title {

@@ -26,11 +26,16 @@
         }
     }
 
+
     &__item {
         border: 1px solid #fff;
         border-radius: 5px;
         padding: 10px;
         text-align: center;
+
+        &--closed {
+            opacity: .5;
+        }
 
         @include tablet-big-screen {
             padding: 5px;

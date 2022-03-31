@@ -2,6 +2,7 @@ const {merge} = require('webpack-merge');
 const baseConfig = require('./webpack.config.base');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
+const {CleanWebpackPlugin} = require("clean-webpack-plugin");
 
 module.exports = merge(baseConfig, {
     mode: 'development',
@@ -14,7 +15,7 @@ module.exports = merge(baseConfig, {
                 generator: {
                     filename: (normalModule) => {
                         let filePath = normalModule.module.resourceResolveData.relativePath;
-                        filePath = filePath.replace('./public/', '');
+                        filePath = filePath.replace('./public/', '/');
                         return filePath;
                     },
                     emit: false,
@@ -23,8 +24,9 @@ module.exports = merge(baseConfig, {
         ]
     },
     plugins: [
+        new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
-            filename: '[name].css',
+            filename: '[name].[hash].css',
         }),
     ],
 });

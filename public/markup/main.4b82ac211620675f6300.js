@@ -2443,7 +2443,41 @@ function createSelect(options) {
 /*!*************************************!*\
   !*** ./resources/markup/faq/faq.js ***!
   \*************************************/
+// faq__item-title-link
+//
+// faq__item-title-copy
+const $faq = document.querySelector('.faq');
 
+if ($faq) {
+  faq($faq);
+}
+
+function faq($wrapper) {
+  const url = document.location.origin;
+  const $links = $wrapper.querySelectorAll('.faq__item-title-link');
+  const $texts = $wrapper.querySelectorAll('.faq__item-title-copy');
+  $links.forEach($link => {
+    $link.addEventListener('click', () => {
+      linkClickHandler($link);
+    });
+  });
+  $texts.forEach($text => {
+    $text.addEventListener('click', () => {
+      textClickHandler($text);
+    });
+  });
+
+  function linkClickHandler($link) {
+    const hash = $link.closest('.faq__item').id;
+    const link = `${url}/#${hash}`;
+    navigator.clipboard.writeText(link);
+  }
+
+  function textClickHandler($text) {
+    const text = $text.closest('.faq__item').querySelector('.faq__item-answer').innerText;
+    navigator.clipboard.writeText(text);
+  }
+}
 }();
 // This entry need to be wrapped in an IIFE because it need to be isolated against other entry modules.
 !function() {
@@ -2730,4 +2764,4 @@ __webpack_require__.r(__webpack_exports__);
 }();
 /******/ })()
 ;
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=main.4b82ac211620675f6300.js.map

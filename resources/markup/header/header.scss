@@ -20,7 +20,9 @@
         padding: 7px 0;
     }
 
-    &__contacts-block {}
+    &__contacts-block {
+        text-align: right;
+    }
 
     &__name {
         color: #fff;
@@ -29,6 +31,7 @@
     &__contact {
         color: #fff;
         margin-bottom: 5px;
+        font-size: 18px;
     }
 
     &__register {

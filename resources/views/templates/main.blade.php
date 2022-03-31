@@ -1,4 +1,19 @@
-<!doctype html>
+<?php
+$files = scandir('public/markup');
+
+foreach ($files as $file) {
+    if (strstr($file, 'js') && !strstr($file, 'map')) {
+        $js = $file;
+    }
+
+    if (strstr($file, 'css') && !strstr($file, 'map')) {
+        $css = $file;
+    }
+}
+
+?>
+
+    <!doctype html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +21,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Евакуація до Болгарії</title>
-    <link rel="stylesheet" type="text/css" href="/main.css">
+    <link rel="stylesheet" type="text/css" href="/markup/<?=$css?>">
 </head>
 <body>
 
@@ -33,7 +48,7 @@
     </div>
 </div>
 
-<script src="/main.js"></script>
+<script src="/markup/<?=$js?>"></script>
 
 </body>
 </html>

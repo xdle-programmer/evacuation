@@ -21,7 +21,7 @@ module.exports = merge(baseConfig, {
                 generator: {
                     filename: (normalModule) => {
                         let filePath = normalModule.module.resourceResolveData.relativePath;
-                        filePath = filePath.replace('./public/', '../');
+                        filePath = filePath.replace('./public/', '../../');
                         return filePath;
                     },
                     emit: false,
