@@ -38,4 +38,31 @@
             background: #0d3950;
         }
     }
+
+    &__contact-name {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__contacts {
+    }
+
+    &__contact {
+        font-size: 30px;
+        text-decoration: underline;
+        margin-bottom: 15px;
+        text-align: center;
+        color: var(--black-color);
+    }
+
+    &__social {
+        width: 400px;
+        @include margin-auto;
+        margin-bottom: 20px;
+
+        @include tablet-big-screen {
+            width: 100%;
+        }
+    }
 }

@@ -21,6 +21,21 @@ foreach ($files as $file) {
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Евакуація до Болгарії</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224676614-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-224676614-1');
+    </script>
+
+
     <link rel="stylesheet" type="text/css" href="/markup/<?=$css?>">
 </head>
 <body>
@@ -28,9 +43,17 @@ foreach ($files as $file) {
 <div class="header">
     <div class="header__block layout">
         <a href="/" class="header__name">Евакуація до Болгарії</a>
+
+
         <div class="header__contacts-block">
-            <a href="tel:+380972141648" class="header__contact">+380972141648</a>
-            <a target="_blank" href="https://forms.gle/H8rSUwsF7injQaQH6" class="header__register">Зареєструватись</a>
+            <div class="header__social">
+                @include('components.social')
+            </div>
+            <div class="header__contacts">
+                <a href="tel:+380972141648" class="header__contact">+38-097-214-16-48</a>
+                <a target="_blank" href="https://forms.gle/H8rSUwsF7injQaQH6"
+                   class="header__register">Зареєструватись</a>
+            </div>
         </div>
     </div>
 </div>
@@ -42,8 +65,14 @@ foreach ($files as $file) {
     <div class="footer__block layout">
         <a href="/" class="footer__name">Евакуація до Болгарії</a>
         <div class="footer__contacts-block">
-            <a href="tel:+380972141648" class="footer__contact">+380972141648</a>
-            <a target="_blank" href="https://forms.gle/H8rSUwsF7injQaQH6" class="footer__register">Зареєструватись</a>
+            <div class="footer__social">
+                @include('components.social')
+            </div>
+            <div class="footer__contacts">
+                <a href="tel:+380972141648" class="footer__contact">+38-097-214-16-48</a>
+                <a target="_blank" href="https://forms.gle/H8rSUwsF7injQaQH6"
+                   class="footer__register">Зареєструватись</a>
+            </div>
         </div>
     </div>
 </div>

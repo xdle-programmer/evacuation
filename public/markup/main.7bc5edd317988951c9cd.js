@@ -2755,6 +2755,7 @@ __webpack_require__.r(__webpack_exports__);
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 !function() {
 "use strict";
+var __webpack_exports__ = {};
 /*!*******************************************!*\
   !*** ./resources/markup/price/price.scss ***!
   \*******************************************/
@@ -2762,6 +2763,16 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 
 }();
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+!function() {
+"use strict";
+/*!*********************************************!*\
+  !*** ./resources/markup/social/social.scss ***!
+  \*********************************************/
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+}();
 /******/ })()
 ;
-//# sourceMappingURL=main.4b82ac211620675f6300.js.map
+//# sourceMappingURL=main.7bc5edd317988951c9cd.js.map

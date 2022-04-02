@@ -1,0 +1,50 @@
+@import "~frontend-scss-mixins/mixins";
+@import "../base/mixins";
+@import "../base/variables";
+@import "../base/media-queries";
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+
+    @include tablet-big-screen {
+        grid-gap: 10px;
+    }
+
+    &__item {
+        @include flex-column-center;
+    }
+
+    &__item-img-wrapper {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        object-position: center;
+
+        @include tablet-big-screen {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &__item-img {
+    }
+
+    &__item-name {
+        margin-top: 10px;
+        text-align: center;
+        color: #fff;
+        text-decoration: underline;
+
+        .header &,
+        .footer & {
+            display: none;
+        }
+
+        .form & {
+            color: var(--black-color);
+        }
+    }
+}
+

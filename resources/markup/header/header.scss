@@ -21,11 +21,20 @@
     }
 
     &__contacts-block {
+        @include flex-row-center;
         text-align: right;
     }
 
     &__name {
         color: #fff;
+
+        @include tablet-big-screen {
+            display: none;
+        }
+    }
+
+    &__contacts {
+        margin-left: 30px;
     }
 
     &__contact {

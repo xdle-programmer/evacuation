@@ -287,7 +287,7 @@ button:focus, input:focus, textarea:focus {
   .faq__title {
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px; }
+    margin-bottom: -35px; }
   .faq__item {
     padding-top: 70px;
     position: relative; }
@@ -365,11 +365,20 @@ button:focus, input:focus, textarea:focus {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0; }
+    padding: 7px 0; }
   .footer__contacts-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: right; }
   .footer__name {
     color: #fff; }
+    @media (max-width: 1279px) {
+      .footer__name {
+        display: none; } }
+  .footer__contacts {
+    margin-left: 30px; }
   .footer__contact {
     color: #fff;
     margin-bottom: 5px;
@@ -405,6 +414,24 @@ button:focus, input:focus, textarea:focus {
         width: 100%; } }
     .form__button:hover {
       background: #0d3950; }
+  .form__contact-name {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px; }
+  .form__contact {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--black-color); }
+  .form__social {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; }
+    @media (max-width: 1279px) {
+      .form__social {
+        width: 100%; } }
 
 .header {
   position: fixed;
@@ -422,9 +449,18 @@ button:focus, input:focus, textarea:focus {
     justify-content: space-between;
     padding: 7px 0; }
   .header__contacts-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-align: right; }
   .header__name {
     color: #fff; }
+    @media (max-width: 1279px) {
+      .header__name {
+        display: none; } }
+  .header__contacts {
+    margin-left: 30px; }
   .header__contact {
     color: #fff;
     margin-bottom: 5px;
@@ -555,7 +591,7 @@ button:focus, input:focus, textarea:focus {
   margin-left: auto;
   margin-right: auto; }
   .layout--small {
-    width: 680px; }
+    width: 800px; }
     @media (max-width: 1279px) {
       .layout--small {
         width: calc(100% - 20px); } }
@@ -569,6 +605,7 @@ button:focus, input:focus, textarea:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-position: center bottom;
   padding: 200px 0; }
   @media (max-width: 1279px) {
     .main-screen {
@@ -583,27 +620,30 @@ button:focus, input:focus, textarea:focus {
     color: #fff;
     padding: 40px;
     background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
-    border-radius: 50px; }
+    backdrop-filter: blur(30px); }
     @media (max-width: 1279px) {
       .main-screen__block {
         padding: 18px;
         border-radius: 0;
         backdrop-filter: none;
-        background: rgba(0, 91, 189, 0.7); } }
+        background: rgba(0, 91, 189, 0.8); } }
   .main-screen__title {
-    font-size: 50px;
-    margin-bottom: 15px; }
+    font-size: 30px; }
   .main-screen__text {
-    font-size: 18px; }
+    font-size: 36px;
+    margin: 15px 0; }
     .main-screen__text a {
       color: #fff;
       text-decoration: underline;
       display: inline; }
+    @media (max-width: 1279px) {
+      .main-screen__text {
+        font-size: 18px; } }
   .main-screen__phone {
-    font-size: 35px;
-    margin-top: 10px;
+    font-size: 30px;
     color: #fff; }
+  .main-screen__social {
+    margin-top: 20px; }
 
 .placeholder {
   position: relative;
@@ -659,5 +699,37 @@ button:focus, input:focus, textarea:focus {
     font-size: 18px;
     line-height: 28px; }
 
+.social {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px; }
+  @media (max-width: 1279px) {
+    .social {
+      grid-gap: 10px; } }
+  .social__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .social__item-img-wrapper {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    object-position: center; }
+    @media (max-width: 1279px) {
+      .social__item-img-wrapper {
+        width: 30px;
+        height: 30px; } }
+  .social__item-name {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline; }
+    .header .social__item-name,
+    .footer .social__item-name {
+      display: none; }
+    .form .social__item-name {
+      color: var(--black-color); }
 
-/*# sourceMappingURL=main.4b82ac211620675f6300.css.map*/
+
+/*# sourceMappingURL=main.7bc5edd317988951c9cd.css.map*/

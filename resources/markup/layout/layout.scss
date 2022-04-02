@@ -9,7 +9,7 @@
     @include margin-auto;
 
     &--small {
-        width: 680px;
+        width: 800px;
 
         @include tablet-big-screen {
             width: calc(100% - 20px);

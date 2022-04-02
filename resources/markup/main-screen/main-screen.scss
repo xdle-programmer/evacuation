@@ -7,6 +7,7 @@
     width: 100%;
     background: url(../../../public/images/main/zolotyie-peski.jpg);
     @include background-cover-center;
+    background-position: center bottom;
     padding: 200px 0;
 
     @include tablet-big-screen {
@@ -20,24 +21,23 @@
         color: #fff;
         padding: 40px;
         background: rgba(0, 0, 0, .1);
-        backdrop-filter: blur(4px);
-        border-radius: 50px;
+        backdrop-filter: blur(30px);
 
         @include tablet-big-screen {
             padding: 18px;
             border-radius: 0;
             backdrop-filter: none;
-            background: rgba(0, 91, 189, .7);
+            background: rgba(0, 91, 189, .8);
         }
     }
 
     &__title {
-        font-size: 50px;
-        margin-bottom: 15px;
+        font-size: 30px;
     }
 
     &__text {
-        font-size: 18px;
+        font-size: 36px;
+        margin: 15px 0;
 
         a {
             color: #fff;
@@ -45,12 +45,17 @@
             display: inline;
         }
 
-
+        @include tablet-big-screen {
+            font-size: 18px;
+        }
     }
 
     &__phone {
-        font-size: 35px;
-        margin-top: 10px;
+        font-size: 30px;
         color: #fff;
+    }
+
+    &__social {
+        margin-top: 20px;
     }
 }
