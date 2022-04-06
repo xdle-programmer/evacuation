@@ -477,7 +477,7 @@ button:focus, input:focus, textarea:focus {
     margin-bottom: 20px; }
   .hotels__items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 15px; }
     @media (max-width: 1279px) {
       .hotels__items {
@@ -732,4 +732,4 @@ button:focus, input:focus, textarea:focus {
       color: var(--black-color); }
 
 
-/*# sourceMappingURL=main.7bc5edd317988951c9cd.css.map*/
+/*# sourceMappingURL=main.e1e8434f4600313059f0.css.map*/

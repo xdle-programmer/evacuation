@@ -76,7 +76,7 @@
                     </div>
                 </div>
 
-                <div class="buses__item">
+                <div class="buses__item buses__item--closed">
                     <div class="buses__item-date">05.04</div>
 
                     <div class="buses__departures">
@@ -133,6 +133,24 @@
                 </div>
 
                 <div class="buses__item">
+                    <div class="buses__item-date">08.04</div>
+
+                    <div class="buses__departures">
+                        <div class="buses__departure">Одеса</div>
+                    </div>
+                    <div class="buses__item-hotels">
+                        <div class="buses__item-hotel">
+                            <div class="buses__item-hotel-name">Престиж Делюкс</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
+                        </div>
+                        <div class="buses__item-hotel">
+                            <div class="buses__item-hotel-name">готель Кристал</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buses__item">
                     <div class="buses__item-date">12.04</div>
 
                     <div class="buses__departures">
@@ -150,12 +168,12 @@
                     </div>
                     <div class="buses__item-hotels">
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">...</div>
-                            <div class="buses__item-hotel-location">...</div>
+                            <div class="buses__item-hotel-name">Престиж Делюкс</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">...</div>
-                            <div class="buses__item-hotel-location">...</div>
+                            <div class="buses__item-hotel-name">готель Кристал</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                     </div>
                 </div>
@@ -186,6 +204,13 @@
                        class="hotels__item-name">Роял Парк</a>
                     <div class="hotels__item-title">4 зірки, Золоті Піски</div>
                     <img class="hotels__item-img" src="/public/images/hotels/royal.jpg">
+                </div>
+
+                <div class="hotels__item">
+                    <a target="_blank" href="https://www.booking.com/hotel/bg/kristal.uk.html"
+                       class="hotels__item-name">Кристал</a>
+                    <div class="hotels__item-title">4 зірки, Золоті Піски</div>
+                    <img class="hotels__item-img" src="/public/images/hotels/kristal.jpg">
                 </div>
 
             </div>
@@ -254,7 +279,7 @@
                     </div>
                     <div class="faq__item-answer">
                         <p>60 євро + 1000 грн.</p>
-                        <p>950 грн це передоплата, яка оплачується відразу після реєстрації за формою (тільки після
+                        <p>1000 грн це передоплата, яка оплачується відразу після реєстрації за формою (тільки після
                             цього за Вами закріплюються місця) та 60 євро вже на посадці в автобус, бажано в євро та без
                             здачі, пояснюємо чому. Саме тому що автобус замовлений в Болгарії і оплачували його потрібно
                             в євро. Якщо в когось долари, тоді це 70 дол. Якщо буде хтось, в кого гривні, тоді по
@@ -407,10 +432,11 @@
                         <div class="faq__item-title-copy"></div>
                     </div>
                     <div class="faq__item-answer">
-                        <p>Ні, за програмою надається безоплатно проживання в готелях (саме з ними ми і домовляємось та
-                            направляємо туди людей з організованого рейсу), харчування в готелі. </p>
-                        <p>Також за програмою «тимчасового захисту» надається соціальна допомога та невідкладна медична
-                            допомога. </p>
+                        <p>За програмою надається безоплатно проживання в готелях (саме з ними ми і домовляємось та направляємо туди людей з організованого рейсу), харчування в готелі.</p>
+
+                        <p>Після заселення в готель можна буде оформити одноразову соціальну виплату, в розмірі 375 лев на сім'ю (приблизно 190 євро). Виплати допомоги будуть у травні.</p>
+
+                        <p>Також за програмою «тимчасового захисту» надається соціальна допомога, невідкладна медична допомога та розширена медична допомога для незахищених верств населення.</p>
                     </div>
                 </div>
                 <div id="answer_15" class="faq__item">
