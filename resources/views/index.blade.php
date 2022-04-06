@@ -140,11 +140,11 @@
                     </div>
                     <div class="buses__item-hotels">
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">Престиж Делюкс</div>
+                            <div class="buses__item-hotel-name">Royal Park</div>
                             <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">готель Кристал</div>
+                            <div class="buses__item-hotel-name">Кристал</div>
                             <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                     </div>
@@ -168,11 +168,39 @@
                     </div>
                     <div class="buses__item-hotels">
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">Престиж Делюкс</div>
+                            <div class="buses__item-hotel-name">Royal Park</div>
                             <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">готель Кристал</div>
+                            <div class="buses__item-hotel-name">Кристал</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buses__item">
+                    <div class="buses__item-date">15.04</div>
+
+                    <div class="buses__departures">
+                        <div class="buses__departure">Київ</div>
+                        <div class="buses__departure">Біла Церква</div>
+                        <div class="buses__departure">Вінниця</div>
+                        <div class="buses__departure">Хмельницький</div>
+                        <div class="buses__departure">Тернопіль</div>
+                        <div class="buses__departure">Івано-Франківськ</div>
+                        <div class="buses__departure">Чернівці</div>
+                        <div class="buses__departure">Львів</div>
+                        <div class="buses__departure">Кам'янець Подільський</div>
+                        <div class="buses__departure">Коломия</div>
+                        <div class="buses__departure">Рогатин</div>
+                    </div>
+                    <div class="buses__item-hotels">
+                        <div class="buses__item-hotel">
+                            <div class="buses__item-hotel-name">Royal Park</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
+                        </div>
+                        <div class="buses__item-hotel">
+                            <div class="buses__item-hotel-name">Кристал</div>
                             <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                     </div>
