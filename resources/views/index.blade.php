@@ -133,7 +133,7 @@
                 </div>
 
                 <div class="buses__item">
-                    <div class="buses__item-date">08.04</div>
+                    <div class="buses__item-date">12.04</div>
 
                     <div class="buses__departures">
                         <div class="buses__departure">Одеса</div>
