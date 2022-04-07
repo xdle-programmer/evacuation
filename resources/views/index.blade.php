@@ -134,7 +134,7 @@
                     </div>
                 </div>
 
-                <div class="buses__item">
+                <div class="buses__item buses__item--closed">
                     <div class="buses__item-date">12.04</div>
 
                     <div class="buses__departures">
