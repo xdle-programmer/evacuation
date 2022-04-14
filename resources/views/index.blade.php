@@ -224,10 +224,12 @@
                     </div>
                     <div class="buses__item-hotels">
                         <div class="buses__item-hotel">
-                            ...
+                            <div class="buses__item-hotel-name">Royal Park</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                         <div class="buses__item-hotel">
-                            ...
+                            <div class="buses__item-hotel-name">Кристал</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                     </div>
                 </div>
