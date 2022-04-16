@@ -178,7 +178,7 @@
                     </div>
                 </div>
 
-                <div class="buses__item">
+                <div class="buses__item buses__item--closed">
                     <div class="buses__item-date">15.04</div>
 
                     <div class="buses__departures">
@@ -224,11 +224,39 @@
                     </div>
                     <div class="buses__item-hotels">
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">Royal Park</div>
+                            <div class="buses__item-hotel-name">Green Park Hotel</div>
                             <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                         <div class="buses__item-hotel">
-                            <div class="buses__item-hotel-name">Кристал</div>
+                            <div class="buses__item-hotel-name">Park Hotel Odessos</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buses__item">
+                    <div class="buses__item-date">26.04</div>
+
+                    <div class="buses__departures">
+                        <div class="buses__departure">Київ</div>
+                        <div class="buses__departure">Біла Церква</div>
+                        <div class="buses__departure">Вінниця</div>
+                        <div class="buses__departure">Хмельницький</div>
+                        <div class="buses__departure">Тернопіль</div>
+                        <div class="buses__departure">Івано-Франківськ</div>
+                        <div class="buses__departure">Чернівці</div>
+                        <div class="buses__departure">Львів</div>
+                        <div class="buses__departure">Кам'янець Подільський</div>
+                        <div class="buses__departure">Коломия</div>
+                        <div class="buses__departure">Рогатин</div>
+                    </div>
+                    <div class="buses__item-hotels">
+                        <div class="buses__item-hotel">
+                            <div class="buses__item-hotel-name">Green Park Hotel</div>
+                            <div class="buses__item-hotel-location">Золоті Піски</div>
+                        </div>
+                        <div class="buses__item-hotel">
+                            <div class="buses__item-hotel-name">Park Hotel Odessos</div>
                             <div class="buses__item-hotel-location">Золоті Піски</div>
                         </div>
                     </div>
@@ -241,6 +269,19 @@
         <div class="hotels__block layout">
             <div class="hotels__title">Готелі</div>
             <div class="hotels__items">
+
+                <div class="hotels__item">
+                    <a target="_blank" href="https://www.booking.com/hotel/bg/green-park.uk.html" class="hotels__item-name">Green Park Hotel</a>
+                    <div class="hotels__item-title">3 зірки, Золоті Піски</div>
+                    <img class="hotels__item-img" src="/public/images/hotels/green_park.jpg">
+                </div>
+
+                <div class="hotels__item">
+                    <a target="_blank" href="https://www.booking.com/hotel/bg/park-odessos-varna.uk.html" class="hotels__item-name">Park Hotel Odessos</a>
+                    <div class="hotels__item-title">4 зірки, Золоті Піски</div>
+                    <img class="hotels__item-img" src="/public/images/hotels/odessos.jpg">
+                </div>
+
                 <div class="hotels__item">
                     <a target="_blank" href="https://www.booking.com/hotel/bg/mak.uk.html" class="hotels__item-name">Престиж
                         Делюкс</a>
