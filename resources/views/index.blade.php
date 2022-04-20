@@ -206,7 +206,7 @@
                     </div>
                 </div>
 
-                <div class="buses__item">
+                <div class="buses__item buses__item--closed">
                     <div class="buses__item-date">19.04</div>
 
                     <div class="buses__departures">
@@ -271,7 +271,7 @@
             <div class="hotels__items">
 
                 <div class="hotels__item">
-                    <a target="_blank" href="https://www.booking.com/hotel/bg/green-park.uk.html" class="hotels__item-name">Green Park Hotel</a>
+                    <a target="_blank" href="https://www.booking.com/hotel/bg/paradise-green-park.uk.html" class="hotels__item-name">Green Park Hotel</a>
                     <div class="hotels__item-title">3 зірки, Золоті Піски</div>
                     <img class="hotels__item-img" src="/public/images/hotels/green_park.jpg">
                 </div>
